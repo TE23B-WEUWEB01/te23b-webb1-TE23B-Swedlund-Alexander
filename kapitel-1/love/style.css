@@ -1,0 +1,22 @@
+body{
+background-color: brown;
+background-image: url(./bilder/mmmm_si.jpg);
+}
+h1 {
+color: blueviolet;
+font: size 100px; ;
+font-family: "Rubik Bubbles", system-ui;
+}
+h2{
+color: blueviolet;
+font-size: 50px;
+font-family: "Creepster", system-ui;
+}
+p{
+color: blueviolet;
+font-size: 25px;
+font-family: "Creepster", system-ui;
+}
+a{
+color: blue;
+}
