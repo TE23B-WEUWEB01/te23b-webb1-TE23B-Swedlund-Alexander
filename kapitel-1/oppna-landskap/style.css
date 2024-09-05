@@ -1,0 +1,23 @@
+body{
+
+    background-image: url("./bilder/landskapweb.jpg");
+    background-attachment: fixed;
+background-size: cover;
+}
+h1{
+    font-family: "Pirata One", system-ui;
+    margin-left: 150px;
+}
+p{
+    font-family: "Sankofa Display", sans-serif;
+    background-color: rgba(58, 112, 86, 0.548);
+    width: 400px;
+    margin-left: 150px;
+    border-radius: 500px;
+}
+img{
+margin-left: 150px;
+}
+a{
+margin-left: 150px;
+}
