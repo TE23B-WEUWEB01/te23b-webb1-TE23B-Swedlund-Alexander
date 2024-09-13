@@ -1,35 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-body{
+
+body {
     background-image: url(./bilder/ah\ yes\ very\ fiji.webp);
     background-size: cover;
     background-repeat: no-repeat;
-background-position: 0px -170px;
+    background-position: 0px -170px;
 }
-h1{
-  font-size: 100px;
+
+h1 {
+    font-size: 100px;
     font-family: "Shadows Into Light", cursive;
     text-transform: uppercase;
     text-shadow: 3px 3px 0 firebrick;
-  
+
 }
-h2{
+
+h2 {
     font-size: 75px;
     font-family: "Shadows Into Light", cursive;
     text-transform: uppercase;
     text-shadow: 3px 3px 0 firebrick;
 }
-p{
+
+p {
     font-family: "Shadows Into Light", cursive;
 }
-a{
+
+a {
     margin-left: 300px;
-color: rgb(238, 255, 0);
-text-transform: uppercase; 
-text-decoration: none;
-background-color: #c90707;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 50px;
-padding-right: 50px;
-border:2px #ff0000;
+    color: rgb(238, 255, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #c90707;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px #ff0000;
 }
