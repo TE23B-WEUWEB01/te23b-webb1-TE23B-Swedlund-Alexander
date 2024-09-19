@@ -1,0 +1,27 @@
+body{
+background-image: url(./bilder/scrooge\ bg.jpg);
+background-size: contain;
+background-size: cover;
+}
+h1{
+    font-family: "Oldenburg", serif;
+font-size: 100px;
+margin-left: 200px;
+color: gold;
+text-shadow:10px 10px 0px darkred ;
+
+}
+img{
+margin-left: 500px;
+}
+p{
+    color: silver;
+    font-family: "Oldenburg", serif;
+margin-left: 200px ;
+margin-right: 200px ;
+background-color: black;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
