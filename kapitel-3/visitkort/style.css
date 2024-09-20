@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: purple;
+}
+div{
+background-image: url(./bilder/istockphoto-893582140-612x612.webp);
+width: 488px;
+height: 325px;
+margin-left: auto;
+margin-right: auto;
+background-size: contain;
+padding-left: 90px;
+margin-top: 100px;
+padding-top: 40px;
+border-radius: 20px;
+box-shadow: 40px 40px 40px aqua;
+}
+h1{
+    font-family: "Jacques Francois Shadow", serif;
+    font-size: 60px;
+    color: blueviolet;
+}
+h2{
+    font-family: "Jacques Francois Shadow", serif;
+    font-size: 40px;
+color: darkcyan;
+}
+p{
+    font-family: "Jacquard 12", system-ui;
+    font-size: 30px;
+    color: brown;
+}
