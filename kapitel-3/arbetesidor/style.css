@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.s1 {
+    background-image: url(./bilder/seamlesscircle.webp);
+}
+
+body.s2 {
+    background-image: url(./bilder/seamlessfish.webp);
+}
+
+body.s3 {
+    background-image: url(./bilder/seamlesshexagon.jpg);
+}
+
+body.s4 {
+    background-image: url(./bilder/seamlesssquare.webp);
+}
+
+body.s5 {
+    background-image: url(./bilder/seamlesstriangle.webp);
+}
+
+body.s6 {
+    background-image: url(./bilder/seamlesstrianglewthhexagon.webp);
+}
+
+div {
+    background-color: darkred;
+    width: 400px;
+    height: 300px;
+    border: 30px ridge crimson;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+a {}
