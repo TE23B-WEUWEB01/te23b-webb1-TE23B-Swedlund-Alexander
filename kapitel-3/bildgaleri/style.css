@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/standard-galactic-alphabet-hand');
+body{
+    font-family: 'Standard Galactic Alphabet Hand', sans-serif;
+    color: aliceblue;
+}
+.kontainer{
+width: 800px;
+padding: 0cap40px;
+}
+.box{
+background-color: black;
+padding: 50px;
+}
+h1{
+
+}
+h2{
+
+}
+img{
+width: 100%;
+}
+p{
+
+}
