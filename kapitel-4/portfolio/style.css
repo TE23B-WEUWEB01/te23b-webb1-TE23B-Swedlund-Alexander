@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -28,11 +29,11 @@ body {
 .main {
     margin: auto;
     width: 1000px;
-    height: 800px;
+    height: 600px;
     background-color: #011136;
     color: aliceblue;
-
-
+    border-radius: 50px;
+    padding: 20px;
 }
 
 .middle {
@@ -42,9 +43,9 @@ body {
 }
 
 .upper {
-    padding-left: 43%;
+    padding-left: 41%;
     margin-bottom: 100px;
-
+    font-family: "Ga Maamli", sans-serif;
 }
 .small{
     display: flex;
@@ -63,15 +64,20 @@ body {
 }
 
 h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
     margin-left: 40%;
+    font-family: "Ga Maamli", sans-serif;
 }
 
 h2 {
     margin-left: 10px;
+    font-family: "Ga Maamli", sans-serif;
 }
 
 p {
     margin-left: 10px;
+    font-family: "Ga Maamli", sans-serif;
 }
 
 img {
