@@ -23,15 +23,15 @@ ul {
 }
 
 body {
-    background-color: dimgrey;
+    background-color: #33658A;
 }
 
 .main {
     margin: auto;
     width: 1000px;
     height: 600px;
-    background-color: #011136;
-    color: aliceblue;
+    background-color:#F26419;
+    color: #2F4858;
     border-radius: 50px;
     padding: 20px;
 }
@@ -39,7 +39,7 @@ body {
 .middle {
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin-left: 10%;
 }
 
 .upper {
@@ -47,22 +47,10 @@ body {
     margin-bottom: 100px;
     font-family: "Ga Maamli", sans-serif;
 }
-.small{
-    display: flex;
-    flex-direction: column;
-}
-.sub {
-    width: 27%;
-    height: 150px;
-    color: aliceblue;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: row;
-    background-color: #1a0379;
-    padding: 10px;
-    border-radius:10px ;
-}
 
+li{
+    width: 80%;
+}
 h1 {
     margin-top: 40px;
     margin-bottom: 10px;
@@ -81,8 +69,8 @@ p {
 }
 
 img {
-    width:30% ;
-   height: fit-content;
+    width: 70px ;
+   height: 80px;
     margin-left: 10px;
    
 }
