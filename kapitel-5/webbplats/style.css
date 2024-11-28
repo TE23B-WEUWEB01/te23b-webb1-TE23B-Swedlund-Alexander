@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Six+Caps&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -23,18 +24,18 @@ ul {
 }
 
 body {
-background-color: #022B3A;
+    background-color: #022B3A;
 }
 
 .kontainer {
-margin: auto;
-width: 800px;
-padding: 20px;
-font-family: 'Courier New', Courier, monospace;
-background-color: #E1E5F2;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #E1E5F2;
 }
 
-h1 {
+.kontainer h1 {
     font-family: "Bonbon", cursive;
     color: #1F7A8C;
 }
@@ -50,36 +51,47 @@ ul {
     justify-content: space-between;
     list-style-type: none;
     padding: 0 20px;
-    
-}
-
-li {
 
 }
 
-a {
-text-decoration: none;
-background-color: #D81159;
-color: aliceblue;
-padding: 6px;
-border-radius: 3px;
-width: 300px;
-display: inline;
-box-shadow: 2px 2px 0 #999;
+.kontainer ul li {}
+
+.kontainer ul a {
+    text-decoration: none;
+    background-color: #D81159;
+    color: aliceblue;
+    padding: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 3px;
+    width: 300px;
+    display: inline;
+    box-shadow: 2px 2px 0 #999;
+}
+.kontainer ul a:hover{
+    background-color: #6c0000;
+}
+.kontainer ul .aktive{
+    background-color: #a00d43;
+}
+.kontainer .tack {
+    font-style: italic;
 }
 
-.tack {
-
+.kontainer .tack a {
+    text-decoration: none;
+    color: #1F7A8C;
 }
 
-img {
-width: 100%;
+.kontainer img {
+    width: 100%;
 }
 
-figure {
-    
+.kontainer figure {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
 }
 
-figcaption {
-
-}
+figcaption {}
