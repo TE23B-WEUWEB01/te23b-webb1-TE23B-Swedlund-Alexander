@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.ruta {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+
+    animation: bytFärg 5s infinite;
+}
+
+@keyframes bytFärg {
+    0% {
+        background-color: red;
+        transform: scale(1);
+        width: 600px;
+        height: 100px;
+        margin-top: 300px;
+        border-radius: 5px;
+    }
+
+    25% {
+        background-color: green;
+        transform: scale(1.5);
+        width: 200px;
+        height: 200px;
+        margin-top: 250px;
+        border-radius: 30px;
+    }
+
+    50% {
+        background-color: blue;
+        transform: scale(1);
+        height: 600px;
+        width: 100px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+
+    75% {
+        background-color: green;
+        transform: scale(1.5);
+        width: 200px;
+        height: 200px;
+        margin-top: 250px;
+        border-radius: 30px;
+    }
+
+    100% {
+        background-color: red;
+        transform: scale(1);
+        width: 600px;
+        height: 100px;
+        margin-top: 300px;
+        border-radius: 5px;
+    }
+}
+
+.preflip {
+    animation: fliped 1s infinite;
+}
+
+.flip {
+    animation: preflip 1s infinite;
+}
+
+@keyframes preflip {
+    0% {
+        opacity: 1;
+       margin-top: 15px;
+    }
+
+    40% {
+        opacity: 1;
+        margin-top: 15px; 
+    }
+
+    50% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 0;
+       ;
+    }
+}
+
+@keyframes fliped {
+    0% {
+        opacity: 0;
+      
+    }
+
+    40% {
+        opacity: 0;
+       
+    }
+
+    50% {
+        opacity: 1;
+        
+    }
+
+    100% {
+        opacity: 1;
+       
+    }
+}
