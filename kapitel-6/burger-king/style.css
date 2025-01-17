@@ -1,22 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
 html {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
-*, *:before, *:after {
-box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-body, h1, h2, h3, h4, h5, h6, p, ul {
-margin: 0;
-padding: 0;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 /* layout */
-body{}
-.kontainer{}
+body {}
+
+.kontainer {
+    width: 1200px;
+    margin: auto;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* sidhuvud */
-.sidhuvud {}
-.sidhuvud .meny {}
-.sidhuvud .meny a {}
-.sidhuvud .seerbjudande {}
+.kontainer .sidhuvud {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px, 0;
+   border-bottom: 1px solid #ccc;
+}
+
+.kontainer .sidhuvud .meny {
+    padding: 10px;
+}
+
+.kontainer .sidhuvud .meny a {
+    text-decoration: none;
+    color: #502314;
+    padding: 10px;
+}
+
+.kontainer .sidhuvud .seerbjudanden {
+    text-decoration: none;
+    color: #CC2200;
+    border: 2px solid #CC2200;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
 /* Gormet */
+.kontainer .gourmet {}
+
+.kontainer .gourmet h2 {
+    font-weight: 400;
+    font-size: 50px;
+}
+.kontainer .gourmet .burgarmeny {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.kontainer .gourmet .burgarmeny .burgare {
+    background-color: #F5ebdc;
+    border-radius: 10px;
+    text-align:center;
+    height: 150px;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.kontainer .gourmet .burgarmeny .burgare:hover{
+    transition-duration: 500ms;
+    height: 500px;
+}
+.kontainer .gourmet .burgarmeny .burgare img {
+    width: 100%;
+}
+.kontainer,.gourmet .burgarmeny .burgare img.fix{
+    margin-bottom: 80px;
+}
+.kontainer .gourmet .burgarmeny .burgare h3 {
+    font-size: 55;
+}
