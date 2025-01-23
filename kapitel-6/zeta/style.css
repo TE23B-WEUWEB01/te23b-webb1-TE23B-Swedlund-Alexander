@@ -1,0 +1,29 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+body{
+    background-image: url(./bilder/image-133.jpg);
+
+}
+.kontainer{
+   
+}
+/* menyn */
+.kontainer .meny{}
+.kontainer .meny a {}
+.kontainer .meny img {}
+
+.kontainer .produkter {}
+.kontainer .produkter h1 {}
+.kontainer .produkter p {}
+.kontainer .produkter .bilder {}
+.kontainer .produkter .bilder .bild {}
+.kontainer .produkter .bilder .bild img {}
+.kontainer .produkter .bilder .bild p {}
