@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
 box-sizing: border-box;
 }
@@ -8,22 +10,83 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 margin: 0;
 padding: 0;
 }
-body{
+
+body {
+    background-color: #F3F0DD;
     background-image: url(./bilder/image-133.jpg);
+    background-repeat: no-repeat;
+}
+
+.kontainer {
+    height: 800px;
+    width: 1150px;
+    margin: auto;
 
 }
-.kontainer{
-   
-}
+
 /* menyn */
-.kontainer .meny{}
-.kontainer .meny a {}
-.kontainer .meny img {}
+.kontainer .meny {
+    align-items: center;
+   padding: 30px;
+   padding-left: 50px;
+   padding-right: 50px;
+    justify-content: space-between;
+    display: flex;
+    gap: 10px;
 
-.kontainer .produkter {}
-.kontainer .produkter h1 {}
-.kontainer .produkter p {}
-.kontainer .produkter .bilder {}
-.kontainer .produkter .bilder .bild {}
-.kontainer .produkter .bilder .bild img {}
-.kontainer .produkter .bilder .bild p {}
+}
+
+.kontainer .meny a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    
+}
+
+.kontainer .meny img {
+    height: 90px;
+    
+}
+
+/* mitten sidan med produkter */
+
+.kontainer .produkter {
+    background-color: #F9F8F1;
+    height: 800px;
+    padding: 30px;
+}
+
+.kontainer .produkter h1 {
+    font-size: 75px;
+    text-align: center;
+    margin: 20px;
+    font-family: "Roboto", serif;
+}
+
+.kontainer .produkter p {
+    text-align: center;
+    margin: 40px;
+}
+
+.kontainer .produkter .bilder {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 10px;
+}
+
+.kontainer .produkter .bilder .bild {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+.kontainer .produkter .bilder .bild img {
+    width: 100%;
+}
+
+.kontainer .produkter .bilder .bild p {
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: bold;
+}
