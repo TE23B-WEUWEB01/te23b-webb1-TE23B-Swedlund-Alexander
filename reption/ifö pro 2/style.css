@@ -1,0 +1,62 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img{
+width: 100%;
+}
+img {
+    width: 100%;
+}
+body{
+background-color: #38175f;
+}
+.kontainer{
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #6c0d0d;
+}
+.kontainer header{
+    
+}
+.kontainer header h1{
+    
+}
+.kontainer header nav{
+    
+}
+.kontainer header nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #12f;
+    padding: 100px;
+    margin: 300px;
+}
+.kontainer nav a:hover{
+    background-color: #c50505;
+}
+.kontainer header nav a.aktiv{
+    background-color: #1bd14f;
+}
+.kontainer main{
+    
+}
+.kontainer main p{
+    
+}
+.kontainer main h2{
+    
+}
+.kontainer footer{
+    
+}
+.kontainer footer p{
+    
+}
