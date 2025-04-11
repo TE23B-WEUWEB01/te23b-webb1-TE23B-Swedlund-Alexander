@@ -1,0 +1,12 @@
+.kontainer{
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    background:#d5d5d5;
+}
+.kol{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
